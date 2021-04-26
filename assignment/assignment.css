@@ -1,0 +1,84 @@
+​ *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+​ html {
+  /* default rem value */
+  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+}
+body {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: black;
+  overflow: hidden;
+}
+
+table {
+  height: 100vh;
+  width: 100%;
+  border-spacing: 15px;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+td {
+  background-color: white;
+}
+
+.SS {
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+div.FIT {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+img.tree {
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 80%;
+  position: relative;
+  top: 40px;
+}
+
+h1.Contact {
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+img.flag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  position: relative;
+  bottom: 60px;
+}
+
+img.VIT {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.SA {
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+img.Photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  position: relative;
+  top: 50px;
+}
